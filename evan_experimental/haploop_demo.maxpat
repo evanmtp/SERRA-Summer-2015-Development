@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 590.0, 79.0, 1372.0, 783.0 ],
+		"rect" : [ 34.0, 79.0, 1372.0, 783.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -1522,7 +1522,7 @@
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "jit_gl_texture" ],
-					"patching_rect" : [ 15.0, 180.0, 315.0, 420.0 ],
+					"patching_rect" : [ 30.0, 180.0, 315.0, 420.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1688,14 +1688,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-2::obj-89" : [ "live.tab[3]", "live.tab", 0 ],
 			"obj-2::obj-75" : [ "live.tab[2]", "live.tab", 0 ],
-			"obj-2::obj-105" : [ "live.tab[4]", "live.tab[4]", 0 ],
-			"obj-2::obj-89" : [ "live.tab[3]", "live.tab", 0 ]
+			"obj-2::obj-105" : [ "live.tab[4]", "live.tab[4]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "haploop.maxpat",
-				"bootpath" : "~/Desktop/_SERRA DEVELOPMENT",
+				"bootpath" : "~/Github/SERRA-Summer-2015-Development/evan_experimental",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
