@@ -1,0 +1,147 @@
+{
+	"patcher" : 	{
+		"fileversion" : 1,
+		"appversion" : 		{
+			"major" : 7,
+			"minor" : 0,
+			"revision" : 4,
+			"architecture" : "x86",
+			"modernui" : 1
+		}
+,
+		"rect" : [ 1079.0, 167.0, 807.0, 845.0 ],
+		"editing_bgcolor" : [ 0.9, 0.9, 0.9, 1.0 ],
+		"bglocked" : 0,
+		"openinpresentation" : 0,
+		"default_fontsize" : 12.0,
+		"default_fontface" : 0,
+		"default_fontname" : "Arial",
+		"gridonopen" : 1,
+		"gridsize" : [ 15.0, 15.0 ],
+		"gridsnaponopen" : 1,
+		"objectsnaponopen" : 1,
+		"statusbarvisible" : 2,
+		"toolbarvisible" : 1,
+		"lefttoolbarpinned" : 0,
+		"toptoolbarpinned" : 0,
+		"righttoolbarpinned" : 0,
+		"bottomtoolbarpinned" : 0,
+		"toolbars_unpinned_last_save" : 0,
+		"tallnewobj" : 0,
+		"boxanimatetime" : 200,
+		"enablehscroll" : 1,
+		"enablevscroll" : 1,
+		"devicewidth" : 0.0,
+		"description" : "",
+		"digest" : "",
+		"tags" : "",
+		"style" : "",
+		"subpatcher_template" : "",
+		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 435.0, 15.0, 84.0, 22.0 ],
+					"style" : "",
+					"text" : "in 3 obstacles"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"code" : "Param CellSize(1.);\r\nGradientScale = 1.125 / CellSize;\r\n\r\nVelocity = in1;\r\nPressure = in2;\r\nObstacles = in3;\r\n\r\noC = Obstacles;\r\n\r\nif(oC.x > 0) {\r\n\tout1 = concat(oC.yz, vec(0,0));\r\n}\r\n\r\n\r\n// Find neighboring pressure:\r\npN = nearest(Pressure, (cell+vec(0,1))/dim).r;\r\npS = nearest(Pressure, (cell+vec(0,-1))/dim).r;\r\npE = nearest(Pressure, (cell+vec(1,0))/dim).r;\r\npW = nearest(Pressure, (cell+vec(-1,0))/dim).r;\r\npC = Pressure;\r\n\r\n// Find neighboring obstacles:\r\noN = nearest(Obstacles, (cell+vec(0,1))/dim).xyz;\r\noS = nearest(Obstacles, (cell+vec(0,-1))/dim).xyz;\r\noE = nearest(Obstacles, (cell+vec(1,0))/dim).xyz;\r\noW = nearest(Obstacles, (cell+vec(-1,0))/dim).xyz;\r\n\r\n// Use center pressure for solid cells:\r\nobstV = vec(0,0);\r\nvMask = vec(1,1);\r\n\r\nif(oN.x > 0) { \r\n\tpN = pC; \r\n\tobstV = vec(obstV.x, oN.z); \r\n\tvMask = vec(vMask.x, 0);\r\n}\r\n\r\nif(oS.x > 0) { \r\n\tpS = pC; \r\n\tobstV = vec(obstV.x, oS.z); \r\n\tvMask = vec(vMask.x, 0);\r\n}\r\n\r\nif(oE.x > 0) { \r\n\tpE = pC; \r\n\tobstV = vec(oE.y, obstV.y); \r\n\tvMask = vec(0, vMask.y);\r\n}\r\n\r\nif(oW.x > 0) { \r\n\tpW = pC; \r\n\tobstV = vec(oW.y, obstV.y); \r\n\tvMask = vec(0, vMask.y);\r\n}\r\noldV = Velocity.xy;\r\ngrad = vec(pE-pW, pN-pS) * GradientScale;\r\nnewV = oldV - grad;\r\n\r\nout1 = (vMask*newV) + obstV;",
+					"fontface" : 0,
+					"fontname" : "Arial",
+					"fontsize" : 12.0,
+					"id" : "obj-5",
+					"maxclass" : "codebox",
+					"numinlets" : 3,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 78.800003, 65.599998, 609.0, 600.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-1",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 50.0, 14.0, 73.0, 22.0 ],
+					"style" : "",
+					"text" : "in 1 velocity"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-2",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 305.0, 14.0, 80.0, 22.0 ],
+					"style" : "",
+					"text" : "in 2 pressure"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-4",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 82.0, 800.0, 37.0, 22.0 ],
+					"style" : "",
+					"text" : "out 1"
+				}
+
+			}
+ ],
+		"lines" : [ 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-1", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-2", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-4", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-5", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-5", 2 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-6", 0 ]
+				}
+
+			}
+ ]
+	}
+
+}

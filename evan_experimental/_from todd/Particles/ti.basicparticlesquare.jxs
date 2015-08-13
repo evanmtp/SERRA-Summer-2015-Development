@@ -1,0 +1,107 @@
+<jittershader name="basicparticlesquare.jxs">
+	<description>Screen-aligned billboarding geometry shader</description>
+	<param name="attr" type="vec3" state="VERTEX_ATTR" />
+	<param name="scale" type="float" default="0.002" />
+	<language name="glsl" version="1.2">		
+		<bind param="scale" program="gp" />
+		<bind param="attr" program="vp" />
+		<program name="vp" type="vertex">
+<![CDATA[
+
+
+attribute vec3 attr;
+
+varying vec2 texdim0;
+varying vec3 info;
+
+
+void main(void)
+{
+
+	gl_Position = gl_ModelViewProjectionMatrix * gl_Vertex;
+	//Forward current color and texture coordinates after applying texture matrix
+	gl_FrontColor = gl_Color;
+	gl_TexCoord[0] = gl_TextureMatrix[0] * gl_MultiTexCoord0;
+	texdim0 = vec2 (abs(gl_TextureMatrix[0][0][0]),abs(gl_TextureMatrix[0][1][1]));
+	info = attr;
+}
+
+]]>		
+		</program>
+		<program name="gp" vertices_out="4" input_type="points" output_type="triangle_strip" type="geometry">
+<![CDATA[
+
+
+
+
+
+uniform float scale;
+varying in vec2 texdim0[1];
+varying in vec3 info[1];
+
+varying out vec2 TC;
+varying out float life;
+
+void main(void)
+{
+	vec3 Vx = vec3(	gl_ModelViewMatrix[0].x, 
+					gl_ModelViewMatrix[1].x, 
+					gl_ModelViewMatrix[2].x);
+	
+	vec3 Vy = vec3(	gl_ModelViewMatrix[0].y, 
+					gl_ModelViewMatrix[1].y, 
+					gl_ModelViewMatrix[2].y);
+					
+	float lifescale =  (info[0].x / info[0].y);
+	life = lifescale;
+	vec3 UL = (-Vx + Vy)*scale*lifescale;
+	vec3 UR = (Vx + Vy)*scale*lifescale;
+	vec3 LR = (Vx - Vy)*scale*lifescale;
+	vec3 LL = (-Vx - Vy)*scale*lifescale;
+
+	gl_FrontColor = gl_FrontColorIn[0];
+
+
+	TC = vec2(0., 0.);
+	gl_Position = gl_ModelViewProjectionMatrix * vec4(gl_PositionIn[0].xyz+UL , 1.);
+	EmitVertex();
+	
+	gl_FrontColor = gl_FrontColorIn[0];
+	TC = vec2(1., 0.)*texdim0[0];
+	gl_Position = gl_ModelViewProjectionMatrix * vec4(gl_PositionIn[0].xyz+UR, 1.);	
+	EmitVertex();
+
+	gl_FrontColor = gl_FrontColorIn[0];
+	TC = vec2(0., 1.)*texdim0[0];
+	gl_Position = gl_ModelViewProjectionMatrix * vec4(gl_PositionIn[0].xyz+LL, 1.);
+	EmitVertex();
+	
+	gl_FrontColor = gl_FrontColorIn[0];
+	TC = vec2(1., 1.)*texdim0[0];
+	gl_Position = gl_ModelViewProjectionMatrix * vec4(gl_PositionIn[0].xyz+LR, 1.);
+	EmitVertex();
+	
+	EndPrimitive();
+}
+
+]]>
+		</program>
+		<program name="fp" type="fragment">
+<![CDATA[
+
+varying vec2 TC;
+uniform sampler2D texture;
+varying float life;
+
+void main()
+{
+
+	vec4 col = texture2D(texture, TC)*life;
+	gl_FragColor = col;
+}
+
+
+]]>		
+		</program>		
+	</language>
+</jittershader>

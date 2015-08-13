@@ -1,0 +1,157 @@
+{
+	"pattrstorage" : 	{
+		"name" : "ex1",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"serra.fluids::timestep" : [ 0.3 ],
+					"serra.fluids::viscosity" : [ 0.6 ],
+					"serra.fluids::vorticity" : [ 1.003 ],
+					"serra.fluids::termperatureMagnitude" : [ 0.0 ],
+					"serra.fluids::gravityMagnitude" : [ 0.0 ],
+					"serra.fluids::gravityAngle" : [ 0.0 ],
+					"serra.fluids::densityBlend" : [ 0.95 ],
+					"serra.fluids::velocityOutHeight" : [ 120 ],
+					"serra.fluids::feedbackMode" : [ "addition" ],
+					"serra.fluids::velocityOutWidth" : [ 160 ],
+					"serra.particleFlow::attractionVel" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"serra.particleFlow::attractionVel[1]" : [ 0.1, 0.1, 0.1, 0.1 ],
+					"serra.particleFlow::attractionVel[2]" : [ 0.1, 0.1, 0.1, 0.1 ],
+					"serra.particleFlow::gain" : [ 1.0 ],
+					"serra.particleFlow::slide_up" : [ 0.052 ],
+					"serra.particleFlow::slide_down" : [ 1.33 ],
+					"serra.particleFlow::threshold" : [ 0.3 ],
+					"serra.particleFlow::invert" : [ 0.0 ],
+					"serra.particleFlow::gain[1]" : [ 0.0 ],
+					"serra.particleFlow::modOp" : [ "pass" ],
+					"serra.particleFlow::species1_on" : [ 1 ],
+					"serra.particleFlow::species2_on" : [ 1 ],
+					"serra.particleFlow::species3_on" : [ 1 ],
+					"serra.particleFlow::species4_on" : [ 1 ],
+					"serra.timespace::frames" : [ 256 ],
+					"serra.timespace::invert[1]" : [ 1 ],
+					"serra.timespace::interlace" : [ 1 ],
+					"serra.timespace::multiply" : [ 0.92 ],
+					"serra.timespace::offset" : [ 0.5 ],
+					"serra.timespace::dim" : [ "640 480" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"serra.fluids::timestep" : [ 0.58 ],
+					"serra.fluids::viscosity" : [ 0.37 ],
+					"serra.fluids::vorticity" : [ 0.85 ],
+					"serra.fluids::termperatureMagnitude" : [ 0.0 ],
+					"serra.fluids::gravityMagnitude" : [ 0.0 ],
+					"serra.fluids::gravityAngle" : [ 0.0 ],
+					"serra.fluids::densityBlend" : [ 0.88 ],
+					"serra.fluids::velocityOutHeight" : [ 120 ],
+					"serra.fluids::feedbackMode" : [ "addition" ],
+					"serra.fluids::velocityOutWidth" : [ 160 ],
+					"serra.particleFlow::attractionVel" : [ 0.2, 0.2, 1.0, 1.0 ],
+					"serra.particleFlow::attractionVel[1]" : [ 0.1, 0.1, 0.1, 0.1 ],
+					"serra.particleFlow::attractionVel[2]" : [ 0.1, 0.1, 0.1, 0.1 ],
+					"serra.particleFlow::gain" : [ 1.0 ],
+					"serra.particleFlow::slide_up" : [ 0.052 ],
+					"serra.particleFlow::slide_down" : [ 1.33 ],
+					"serra.particleFlow::threshold" : [ 0.3 ],
+					"serra.particleFlow::invert" : [ 0.0 ],
+					"serra.particleFlow::gain[1]" : [ 0.0 ],
+					"serra.particleFlow::modOp" : [ "pass" ],
+					"serra.particleFlow::species1_on" : [ 1 ],
+					"serra.particleFlow::species2_on" : [ 1 ],
+					"serra.particleFlow::species3_on" : [ 1 ],
+					"serra.particleFlow::species4_on" : [ 1 ],
+					"serra.timespace::frames" : [ 256 ],
+					"serra.timespace::invert[1]" : [ 1 ],
+					"serra.timespace::interlace" : [ 1 ],
+					"serra.timespace::multiply" : [ 0.92 ],
+					"serra.timespace::offset" : [ 0.5 ],
+					"serra.timespace::dim" : [ "640 480" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"serra.fluids::timestep" : [ 0.58 ],
+					"serra.fluids::viscosity" : [ 0.37 ],
+					"serra.fluids::vorticity" : [ 0.85 ],
+					"serra.fluids::termperatureMagnitude" : [ 0.0 ],
+					"serra.fluids::gravityMagnitude" : [ 0.0 ],
+					"serra.fluids::gravityAngle" : [ 0.0 ],
+					"serra.fluids::densityBlend" : [ 0.88 ],
+					"serra.fluids::velocityOutHeight" : [ 120 ],
+					"serra.fluids::feedbackMode" : [ "addition" ],
+					"serra.fluids::velocityOutWidth" : [ 160 ],
+					"serra.particleFlow::attractionVel" : [ 0.2, 0.2, 1.0, 1.0 ],
+					"serra.particleFlow::attractionVel[1]" : [ 0.1, 0.1, 0.1, 0.1 ],
+					"serra.particleFlow::attractionVel[2]" : [ 0.1, 0.1, 0.1, 0.1 ],
+					"serra.particleFlow::gain" : [ 1.0 ],
+					"serra.particleFlow::slide_up" : [ 0.052 ],
+					"serra.particleFlow::slide_down" : [ 1.33 ],
+					"serra.particleFlow::threshold" : [ 0.3 ],
+					"serra.particleFlow::invert" : [ 0.0 ],
+					"serra.particleFlow::gain[1]" : [ 0.0 ],
+					"serra.particleFlow::modOp" : [ "pass" ],
+					"serra.particleFlow::species1_on" : [ 1 ],
+					"serra.particleFlow::species2_on" : [ 0 ],
+					"serra.particleFlow::species3_on" : [ 0 ],
+					"serra.particleFlow::species4_on" : [ 1 ],
+					"serra.timespace::frames" : [ 256 ],
+					"serra.timespace::invert[1]" : [ 1 ],
+					"serra.timespace::interlace" : [ 1 ],
+					"serra.timespace::multiply" : [ 1.248 ],
+					"serra.timespace::offset" : [ 0.5 ],
+					"serra.timespace::dim" : [ "640 480" ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"serra.fluids::timestep" : [ 0.58 ],
+					"serra.fluids::viscosity" : [ 0.37 ],
+					"serra.fluids::vorticity" : [ 0.85 ],
+					"serra.fluids::termperatureMagnitude" : [ 0.19 ],
+					"serra.fluids::gravityMagnitude" : [ 0.19 ],
+					"serra.fluids::gravityAngle" : [ 0.15 ],
+					"serra.fluids::densityBlend" : [ 0.88 ],
+					"serra.fluids::velocityOutHeight" : [ 120 ],
+					"serra.fluids::feedbackMode" : [ "addition" ],
+					"serra.fluids::velocityOutWidth" : [ 160 ],
+					"serra.particleFlow::attractionVel" : [ 0.2, 0.2, 1.0, 1.0 ],
+					"serra.particleFlow::attractionVel[1]" : [ 0.1, 0.1, 0.1, 0.1 ],
+					"serra.particleFlow::attractionVel[2]" : [ 0.1, 0.1, 0.1, 0.1 ],
+					"serra.particleFlow::gain" : [ 1.0 ],
+					"serra.particleFlow::slide_up" : [ 21.0 ],
+					"serra.particleFlow::slide_down" : [ 1.33 ],
+					"serra.particleFlow::threshold" : [ 0.3 ],
+					"serra.particleFlow::invert" : [ 0.0 ],
+					"serra.particleFlow::gain[1]" : [ 0.0 ],
+					"serra.particleFlow::modOp" : [ "pass" ],
+					"serra.particleFlow::species1_on" : [ 1 ],
+					"serra.particleFlow::species2_on" : [ 0 ],
+					"serra.particleFlow::species3_on" : [ 0 ],
+					"serra.particleFlow::species4_on" : [ 1 ],
+					"serra.timespace::frames" : [ 256 ],
+					"serra.timespace::invert[1]" : [ 1 ],
+					"serra.timespace::interlace" : [ 1 ],
+					"serra.timespace::multiply" : [ 1.248 ],
+					"serra.timespace::offset" : [ 0.5 ],
+					"serra.timespace::dim" : [ "640 480" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
