@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 6,
 			"minor" : 1,
-			"revision" : 10,
+			"revision" : 9,
 			"architecture" : "x86"
 		}
 ,
@@ -542,7 +542,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1052,7 +1052,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -1153,7 +1153,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -2278,7 +2278,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -3455,7 +3455,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -3562,7 +3562,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -4627,7 +4627,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -4800,7 +4800,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -5257,7 +5257,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -5506,7 +5506,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -6278,7 +6278,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -6469,7 +6469,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -6608,7 +6608,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -7811,7 +7811,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -8028,7 +8028,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -8602,7 +8602,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -8918,7 +8918,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -9803,7 +9803,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -10688,7 +10688,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -11615,7 +11615,7 @@
 										"appversion" : 										{
 											"major" : 6,
 											"minor" : 1,
-											"revision" : 10,
+											"revision" : 9,
 											"architecture" : "x86"
 										}
 ,
@@ -13333,7 +13333,7 @@
 						"appversion" : 						{
 							"major" : 6,
 							"minor" : 1,
-							"revision" : 10,
+							"revision" : 9,
 							"architecture" : "x86"
 						}
 ,
@@ -15612,218 +15612,218 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-119" : [ "live.tab[2]", "live.tab[1]", 0 ],
 			"obj-53" : [ "live.tab[1]", "live.tab", 0 ],
-			"obj-4::obj-53" : [ "live.tab[3]", "live.tab", 0 ]
+			"obj-4::obj-53" : [ "live.tab[3]", "live.tab", 0 ],
+			"obj-119" : [ "live.tab[2]", "live.tab[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
 				"name" : "jmod.o4.fluids%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.fluids%.ui.panel.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.list2parameter.maxpat",
-				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/list2parameter",
-				"patcherrelativepath" : "../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/list2parameter",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/list2parameter",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/list2parameter",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "tml.ejm.bilogscaler.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.fluids%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.particleFlow%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.o4.particleFlow%.ui.panel.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.particlemesh.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.initialPositions.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.noisefield.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.normals.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.fluids%.scalewrap.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.fluids%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.fluids%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.o4.particleFlow%.figurative.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.o4.particleFlow%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.o4.particleFlow%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "mxr.v.scalewrap.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/o4.asu_utils",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/o4.asu_utils",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/o4.asu_utils",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/o4.asu_utils",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.cc.brcosa%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.cc.brcosa%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.cc.brcosa%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.cc.brcosa%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.cc.brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.cc.brcosa%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.cc.brcosa%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.cc.brcosa%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.cc.brcosa%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.cc.brcosa%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.bloom%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.bloom%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.bloom%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.bloom%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.bloom%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.bloom%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.bloom%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.tp.slide%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.tp.slide%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.tp.slide%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.tp.slide%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.tp.slide%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.tp.slide%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.tp.slide%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.orsize%.maxpat",
-				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/modules/video/orsize%",
-				"patcherrelativepath" : "../../../../Applications/Max 6/Cycling '74/Jamoma/modules/video/orsize%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.orsize%.maxpat",
-				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/modules/video/orsize%",
-				"patcherrelativepath" : "../../../../Applications/Max 6/Cycling '74/Jamoma/modules/video/orsize%",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/video/orsize%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.pwindow.mouse.maxpat",
-				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/pwindow.mouse",
-				"patcherrelativepath" : "../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/pwindow.mouse",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/pwindow.mouse",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.syphonclient%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.syphonclient%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.syphonclient%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.syphonclient%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jmod.syphonclient%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jmod.syphonclient%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jmod.syphonclient%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.gl.math%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.math%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.math%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.math%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.math%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jalg.gl.math%.maxpat",
-				"bootpath" : "/Users/syrinx/Github/Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.math%",
-				"patcherrelativepath" : "../Synthesis/O4_ASU/O4.video/Dependancies/jamoma_shaders/jmod.gl.math%",
+				"bootpath" : "/Users/synthesis/Desktop/SERRA WORKSHOP/SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.math%",
+				"patcherrelativepath" : "../SERRA-workshop-April2015/O4.video/Dependencies/jamoma_shaders/jmod.gl.math%",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jmod.cueManager.maxpat",
-				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/modules/control/cueManager",
-				"patcherrelativepath" : "../../../../Applications/Max 6/Cycling '74/Jamoma/modules/control/cueManager",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/modules/control/cueManager",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "jcom.initialized.maxpat",
-				"bootpath" : "/Applications/Max 6/Cycling '74/Jamoma/library/components/initialized",
-				"patcherrelativepath" : "../../../../Applications/Max 6/Cycling '74/Jamoma/library/components/initialized",
+				"bootpath" : "/Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
+				"patcherrelativepath" : "../../../../../Applications/Max 6.1/packages/Jamoma-0.5.7/patchers/library/components/initialized",
 				"type" : "JSON",
 				"implicit" : 1
 			}
